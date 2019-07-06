@@ -17,7 +17,7 @@ const Header: React.FC<IProps> = ({reset}) => {
 
   return (
     <header>
-      <AppBar position="static">
+      <AppBar position="static" className="app-bar">
         <Toolbar>
           <img src={logo} className="App-logo" alt="logo"/>
           <Grid container

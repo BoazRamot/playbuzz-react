@@ -2,69 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ada87dae-f12c-4cd9-a114-cbeaedb49e69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/data/q1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/q2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/q3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/BRB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/Died from not forwarding that email to 10 people.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/Do you want to have kids.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/High Tech Millenial.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/Hip Millenial.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/How many bones have you broken.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/How many hours per day do you spend on the phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/How often do you exercise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/I will not be back after this message.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/Old School Millenial.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/Pick a color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/Pick a destination for a vacation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/Pick a game to play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/What Type Of Millenial Are You.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/What Your Tombstone Will Say When You Die.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/What do you drink in the morning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/What industry do you work in q2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/What industry do you work in.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/What's your biggest pet peeve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/What's your favorite holiday.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/What's your favorite social media app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/What's your idea of a nice outing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/What's your life's motto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/What's your marital status.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/What's your primary emotion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/When it comes to your career.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/Which Emoji Are You.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/Which of these words best describes you.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/Who were you in high school.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/Would you ever consider going sky diving.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/cool-emoji.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/how would you wanna die.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/poop-emoji.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/winky-emoji.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProgressBar/ProgressBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Question/Question.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/QuizCard/QuizCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/IOptions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/IQuestions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/IQuiz.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/IResult.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Quiz.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/App/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/QuizPage/QuizPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Summary/Summary.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/configureStore.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/localStorage.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/quizzes.api.middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/quizzes.data.reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/App/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/App/App.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProgressBar/ProgressBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProgressBar/ProgressBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Question/Question.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Question/Question.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/App/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/App/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/QuizPage/QuizPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/QuizPage/QuizPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/quizzes.api.middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/quizzes.api.middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/quizzes.data.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/quizzes.data.reducer.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,13 +25,111 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/store/configureStore.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
+            <state relative-caret-position="606">
               <caret line="92" column="69" selection-start-line="92" selection-start-column="69" selection-end-line="92" selection-end-column="69" />
               <folding>
                 <element signature="e#0#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/localStorage.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/quizzes.api.middleware.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/quizzes.data.reducer.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-164">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Header/Header.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/App/App.test.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/App/App.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-54">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/Home/Home.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-208">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/Summary/Summary.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,8 +149,6 @@
         <option value="$PROJECT_DIR$/src/models/IQuiz.ts" />
         <option value="$PROJECT_DIR$/public/data/quiz-3.json" />
         <option value="$PROJECT_DIR$/src/models/Quiz.ts" />
-        <option value="$PROJECT_DIR$/src/store/quizzes.api.middleware.ts" />
-        <option value="$PROJECT_DIR$/src/components/ProgressBar/ProgressBar.tsx" />
         <option value="$PROJECT_DIR$/src/store/localStorage.ts" />
         <option value="$PROJECT_DIR$/src/models/IResult.ts" />
         <option value="$PROJECT_DIR$/src/pages/Summary/Summary.tsx" />
@@ -113,13 +157,18 @@
         <option value="$PROJECT_DIR$/src/components/QuizCard/QuizCard.tsx" />
         <option value="$PROJECT_DIR$/public/data/q3.json" />
         <option value="$PROJECT_DIR$/public/data/q2.json" />
-        <option value="$PROJECT_DIR$/src/components/Question/Question.tsx" />
         <option value="$PROJECT_DIR$/src/index.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/App/App.tsx" />
+        <option value="$PROJECT_DIR$/src/store/configureStore.ts" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/pages/App/App.scss" />
+        <option value="$PROJECT_DIR$/src/store/quizzes.api.middleware.ts" />
+        <option value="$PROJECT_DIR$/src/components/ProgressBar/ProgressBar.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Question/Question.tsx" />
         <option value="$PROJECT_DIR$/src/pages/QuizPage/QuizPage.tsx" />
         <option value="$PROJECT_DIR$/src/store/quizzes.data.reducer.ts" />
-        <option value="$PROJECT_DIR$/src/pages/App/App.tsx" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.tsx" />
-        <option value="$PROJECT_DIR$/src/store/configureStore.ts" />
+        <option value="$PROJECT_DIR$/src/index.scss" />
       </list>
     </option>
   </component>
@@ -172,7 +221,69 @@
               <item name="playbuzz-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="playbuzz-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="playbuzz-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playbuzz-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgressBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="playbuzz-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playbuzz-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Question" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="playbuzz-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playbuzz-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="QuizCard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="playbuzz-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playbuzz-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="playbuzz-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playbuzz-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="playbuzz-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playbuzz-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="playbuzz-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playbuzz-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="playbuzz-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playbuzz-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="QuizPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="playbuzz-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playbuzz-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Summary" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="playbuzz-react" type="b2602c69:ProjectViewProjectNode" />
@@ -188,6 +299,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -236,12 +348,12 @@
       <workItem from="1561903441122" duration="6052000" />
       <workItem from="1561995469649" duration="9099000" />
       <workItem from="1562168501305" duration="10986000" />
-      <workItem from="1562403570862" duration="7164000" />
+      <workItem from="1562403570862" duration="12996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107106000" />
+    <option name="totallyTimeSpent" value="112938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -262,7 +374,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.108342364" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.12459372" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -279,9 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/IOptions.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/IQuiz.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -291,35 +400,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/quizzes.api.middleware.ts">
+    <entry file="file://$PROJECT_DIR$/public/img/What industry do you work in.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/q3.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
+          <caret line="92" column="23" lean-forward="true" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/localStorage.ts">
+    <entry file="file://$PROJECT_DIR$/public/data/q2.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        <state relative-caret-position="506">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProgressBar/ProgressBar.tsx">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="628">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="946">
+            <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/q1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/img/What industry do you work in.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/components/QuizCard/QuizCard.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Question/Question.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProgressBar/ProgressBar.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/IOptions.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/IQuestions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/IResult.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -338,6 +513,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/QuizPage/QuizPage.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/App/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/App/App.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/App/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Home/Home.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Summary/Summary.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -348,118 +569,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/data/q3.json">
+    <entry file="file://$PROJECT_DIR$/src/store/configureStore.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="92" column="23" lean-forward="true" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/IQuestions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/data/q2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/QuizCard/QuizCard.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        <state relative-caret-position="606">
+          <caret line="92" column="69" selection-start-line="92" selection-start-column="69" selection-end-line="92" selection-end-column="69" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/data/q1.json">
+    <entry file="file://$PROJECT_DIR$/src/store/localStorage.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="352">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Question/Question.tsx">
+    <entry file="file://$PROJECT_DIR$/src/store/quizzes.api.middleware.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        <state relative-caret-position="308">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/QuizPage/QuizPage.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Home/Home.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/store/quizzes.data.reducer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="74" lean-forward="true" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/App/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-164">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header/Header.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        <state relative-caret-position="396">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/configureStore.ts">
+    <entry file="file://$PROJECT_DIR$/src/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="92" column="69" selection-start-line="92" selection-start-column="69" selection-end-line="92" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="381">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
         </state>
       </provider>
     </entry>

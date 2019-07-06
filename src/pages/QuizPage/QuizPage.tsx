@@ -34,7 +34,6 @@ const QuizPage: React.FC<IProps & RouteComponentProps> = ({index, lastIndex, shu
   const quiz:Quiz = getQuiz(id);
 
   const shuffle = (array: Array<IQuestions>) => {
-    // const array = [...arr];
     let currentIndex = array.length;
     let tempVal;
     let randomIndex;

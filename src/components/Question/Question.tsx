@@ -28,7 +28,7 @@ const Question: React.FC<IProps & RouteComponentProps> = ({id, index, quizzes, o
       <ListItemText>{item.text}</ListItemText>
     </ListItem>
   ));
-  //console.log('quiz.questions', quiz.questions);
+
   return (
     <div className="Question">
       <h1>{quiz.questions[index].question}</h1>

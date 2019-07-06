@@ -19,11 +19,8 @@ export const getQuizzes = (jsonFilesString: Array<string>): getQuizzesAction => 
   }
 };
 
-// see: https://stackoverflow.com/questions/45339448/how-do-you-create-strongly-typed-redux-middleware-in-typescript-from-reduxs-typ
 const getQuizzesFlow:Middleware = ({dispatch}: MiddlewareAPI) => (next: Dispatch) => action => {
   if (action.type === QUIZZES_API_GET_QUIZZES) {
-    // see: https://facebook.github.io/create-react-app/docs/deployment#github-pages-https-pagesgithubcom
-    // https://facebook.github.io/create-react-app/docs/using-the-public-folder
     action.payload.forEach((item: string) => {
       fetch(process.env.PUBLIC_URL + item)
         .then(res => res.json())

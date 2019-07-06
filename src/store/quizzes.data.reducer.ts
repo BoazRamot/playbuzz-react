@@ -4,7 +4,6 @@ const QUIZZES_DATA_SET = '[QUIZZES] DATA_SET';
 
 // actions types
 interface quizSetAllAction {
-  // type: typeof QUIZZES_DATA_SET;
   type: typeof QUIZZES_DATA_SET;
   payload: Quiz;
 }
