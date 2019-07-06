@@ -1,0 +1,101 @@
+{
+  "id": "q2",
+  "imgSrc": "What Type Of Millenial Are You.png",
+  "title": "What Type Of Millenial Are You?",
+  "result": [
+    {
+      "score": 10,
+      "title": "You are...A Hip Millenial",
+      "text": "When people look at you, they know 100% that you're a millennial. You're always wearing the latest trends and styles as seen on the Instagram. Yes...you love everything millennial from essential oils to succulents to vape pens. ",
+      "imgSrc": "Hip Millenial.png"
+    },
+    { "score": 20,
+      "title": "You are...A High Tech Millenial",
+      "text": "You live for your smart phone. You are highly active on social media and might even be a content creator. You have no idea where you'd be without the internet.",
+      "imgSrc": "High Tech Millenial.png"
+    },
+    { "score": 30,
+      "title": "You are...an Old School Millenial",
+      "text": "Unlike your millennial counterparts, you don't subscribe to the latest millennial trends. You don't have a Facebook account and think smart phones are ruining our brains. You're a pretty conservative person in nature and prefer tradition over novelty.",
+      "imgSrc": "Old School Millenial.png"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "imgSrc": "What's your marital status.png",
+      "question": "What's your marital status?",
+      "options": [
+        { "text": "Single", "value": 1 },
+        { "text": "Married", "value": 2 },
+        { "text": "Divorced", "value": 3 },
+        { "text": "In an open relationship", "value": 4 }
+      ]
+    },
+    {
+      "id": "q2",
+      "imgSrc": "What's your favorite holiday.png",
+      "question": "What's your favorite holiday?",
+      "options": [
+        { "text": "Hanukkah", "value": 1 },
+        { "text": "Valentine's Day", "value": 2 },
+        { "text": "Purim", "value": 3 },
+        { "text": "My Birthday", "value": 4 }
+      ]
+    },
+    {
+      "id": "q3",
+      "imgSrc": "Pick a destination for a vacation.png",
+      "question": "Pick a destination for a vacation:",
+      "options": [
+        { "text": "Rome, Italy", "value": 2 },
+        { "text": "Jerusalem, Israel", "value": 1 },
+        { "text": "Tokyo, Japan", "value": 3 },
+        { "text": "Bali, Indonesia", "value": 4 }
+      ]
+    },
+    {
+      "id": "q4",
+      "imgSrc": "When it comes to your career.png",
+      "question": "When it comes to your career, what's most important to you?",
+      "options": [
+        { "text": "That I make a lot of money", "value": 1 },
+        { "text": "That I work for a company that has a big impact on the world", "value": 2 },
+        { "text": "That I work with cool, friendly people", "value": 3 },
+        { "text": "That I have flexible hours", "value": 4 }
+      ]
+    },
+    {
+      "id": "q5",
+      "imgSrc": "What do you drink in the morning.png",
+      "question": "What do you drink in the morning?",
+      "options": [
+        { "text": "Black americano", "value": 1 },
+        { "text": "Green juice", "value": 2 },
+        { "text": "Matcha latte", "value": 3 },
+        { "text": "Diet coke", "value": 4 }
+      ]
+    },
+    {
+      "id": "q6",
+      "imgSrc": "Do you want to have kids.png",
+      "question": "Do you want to have kids?",
+      "options": [
+        { "text": "Yes", "value": 1 },
+        { "text": "No", "value": 2 },
+        { "text": "Maybe", "value": 3 }
+      ]
+    },
+    {
+      "id": "q7",
+      "imgSrc": "What industry do you work in q2.png",
+      "question": "What industry do you work in?",
+      "options": [
+        { "text": "Arts", "value": 1 },
+        { "text": "Customer Service", "value": 2 },
+        { "text": "Medical", "value": 3 },
+        { "text": "Tech", "value": 4 }
+      ]
+    }
+  ]
+}

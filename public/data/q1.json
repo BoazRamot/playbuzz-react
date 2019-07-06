@@ -1,0 +1,112 @@
+{
+  "id": "q1",
+  "imgSrc": "What Your Tombstone Will Say When You Die.png",
+  "title": "What Your Tombstone Will Say When You Die?",
+  "result": [
+    {
+      "score": 10,
+      "title": "Your tombstone will say...\"Died from not forwarding that email to 10 people\"",
+      "text": "You're not the superstitious type, but it looks like not forwarding that chain letter may have cost you your life.",
+      "imgSrc": "Died from not forwarding that email to 10 people.png"
+    },
+    { "score": 20,
+      "title": "Your tombstone will say...\"BRB\"",
+      "text": "You believe in reincarnation, which is why your tombstone says: \"Be right back\".",
+      "imgSrc": "BRB.png"
+    },
+    { "score": 30,
+      "title": "Your tombstone will say...\"I will not be back after this message\"",
+      "text": "You believe that when you're dead...you're dead so you won't be returning any messages from now on.",
+      "imgSrc": "I will not be back after this message.png"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "imgSrc": "how would you wanna die.png",
+      "question": "If you had to choose, how would you wanna die?",
+      "options": [
+        { "text": "From old age", "value": 1 },
+        { "text": "In a high-octane car chase", "value": 2 },
+        { "text": "From a heart-attack", "value": 3 },
+        { "text": "Drown in a lake", "value": 4 }
+      ]
+    },
+    {
+      "id": "q2",
+      "imgSrc": "What's your life's motto.png",
+      "question": "What's your life's motto?",
+      "options": [
+        { "text": "\"Get rich or die trying\"", "value": 1 },
+        { "text": "\"Life is like a box of chocolates\"", "value": 2 },
+        { "text": "\"Life is 10% what happens to you and 90% how you react to it\"", "value": 3 },
+        { "text": "\"The most difficult thing in life is to know yourself\"", "value": 4 }
+      ]
+    },
+    {
+      "id": "q3",
+      "imgSrc": "How many bones have you broken.png",
+      "question": "How many bones have you broken?",
+      "options": [
+        { "text": "Zero", "value": 1 },
+        { "text": "1-2", "value": 2 },
+        { "text": "3-4", "value": 3 },
+        { "text": "5+", "value": 4 }
+      ]
+    },
+    {
+      "id": "q4",
+      "imgSrc": "Would you ever consider going sky diving.png",
+      "question": "Would you ever consider going sky diving?",
+      "options": [
+        { "text": "Yes", "value": 1 },
+        { "text": "No", "value": 2 },
+        { "text": "Maybe", "value": 3 }
+      ]
+    },
+    {
+      "id": "q5",
+      "imgSrc": "What's your biggest pet peeve.png",
+      "question": "What's your biggest pet peeve?",
+      "options": [
+        { "text": "People who eat with their mouth open", "value": 1 },
+        { "text": "Talking through a movie", "value": 2 },
+        { "text": "People who leave the lid off the toothpaste", "value": 3 },
+        { "text": "People who smoke indoors", "value": 4 }
+      ]
+    },
+    {
+      "id": "q6",
+      "imgSrc": "What's your idea of a nice outing.png",
+      "question": "What's your idea of a nice outing?",
+      "options": [
+        { "text": "Have a coffee at a cafe", "value": 1 },
+        { "text": "Go shopping at a bookstore", "value": 2 },
+        { "text": "Go to the movies", "value": 3 },
+        { "text": "Play catch in the park", "value": 4 }
+      ]
+    },
+    {
+      "id": "q7",
+      "imgSrc": "Pick a game to play.png",
+      "question": "Pick a game to play:",
+      "options": [
+        { "text": "Life", "value": 1 },
+        { "text": "Monopoly", "value": 2 },
+        { "text": "Scrabble", "value": 3 },
+        { "text": "Snakes and Ladders", "value": 4 }
+      ]
+    },
+    {
+      "id": "q8",
+      "imgSrc": "How often do you exercise.png",
+      "question": "How often do you exercise?",
+      "options": [
+        { "text": "Almost everyday", "value": 1 },
+        { "text": "A few times a week", "value": 2 },
+        { "text": "A couple times a month", "value": 3 },
+        { "text": "Almost never", "value": 4 }
+      ]
+    }
+  ]
+}
