@@ -1,0 +1,102 @@
+{
+  "id": "q3",
+  "imgSrc": "Which Emoji Are You.png",
+  "title": "Which Emoji Are You?",
+  "result": [
+    {
+      "score": 10,
+      "title": "You are...the cool emoji",
+      "text": "You find it easy to make friends with most people. You are confident and are generally chill about most things. Can we be friends?",
+      "imgSrc": "cool-emoji.png"
+    },
+    { "score": 20,
+      "title": "You are...the winky emoji",
+      "text": "You tend to lead with your sense of humor and have a quick wit. You are smart and communicative through ideas as opposed to feelings. ",
+      "imgSrc": "winky-emoji.png"
+    },
+    { "score": 30,
+      "title": "You are...the poop emoji",
+      "text": "You are a total kook! You're always cracking jokes and acting as the \"entertainer\". People like to be around you for your fun and uplifting energy. ",
+      "imgSrc": "poop-emoji.png"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "imgSrc": "How many hours per day do you spend on the phone.png",
+      "question": "How many hours per day do you spend on the phone?",
+      "options": [
+        { "text": "0-1", "value": 1 },
+        { "text": "2-3", "value": 2 },
+        { "text": "4-5", "value": 3 },
+        { "text": "6+", "value": 4 }
+      ]
+    },
+    {
+      "id": "q2",
+      "imgSrc": "Which of these words best describes you.png",
+      "question": "Which of these words best describes you?",
+      "options": [
+        { "text": "Loyal", "value": 1 },
+        { "text": "Outgoing", "value": 2 },
+        { "text": "Shy", "value": 3 },
+        { "text": "Logical", "value": 4 }
+      ]
+    },
+    {
+      "id": "q3",
+      "imgSrc": "Pick a color.png",
+      "question": "Pick a color:",
+      "options": [
+        { "text": "Red", "value": 1 },
+        { "text": "Yellow", "value": 2 },
+        { "text": "Green", "value": 3 },
+        { "text": "Blue", "value": 4 }
+      ]
+    },
+    {
+      "id": "q4",
+      "imgSrc": "Who were you in high school.png",
+      "question": "Who were you in high school?",
+      "options": [
+        { "text": "A geek", "value": 1 },
+        { "text": "A jock", "value": 2 },
+        { "text": "A hippie", "value": 3 },
+        { "text": "A teacher's pet", "value": 4 }
+      ]
+    },
+    {
+      "id": "q5",
+      "imgSrc": "What industry do you work in.png",
+      "question": "What industry do you work in?",
+      "options": [
+        { "text": "Hi tech", "value": 1 },
+        { "text": "Food", "value": 2 },
+        { "text": "Education", "value": 3 },
+        { "text": "Customer service", "value": 4 }
+      ]
+    },
+    {
+      "id": "q6",
+      "imgSrc": "What's your favorite social media app.png",
+      "question": "What's your favorite social media app?",
+      "options": [
+        { "text": "Instagram", "value": 1 },
+        { "text": "Twitter", "value": 2 },
+        { "text": "SnapChat", "value": 3 },
+        { "text": "Facebook", "value": 4 }
+      ]
+    },
+    {
+      "id": "q7",
+      "imgSrc": "What's your primary emotion.png",
+      "question": "What's your primary emotion?",
+      "options": [
+        { "text": "Happiness", "value": 1 },
+        { "text": "Melancholy", "value": 2 },
+        { "text": "Hyper", "value": 3 },
+        { "text": "Anger", "value": 4 }
+      ]
+    }
+  ]
+}
