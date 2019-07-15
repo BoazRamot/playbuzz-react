@@ -16,9 +16,10 @@ interface IProps {
   lastIndex: boolean;
   reset: Function;
   finishQuizNow: Function;
+  quizCardContent?: any;
 }
 
-const QuizCard: React.FC<IProps> = ({ imgSrc, id, name, text, title, lastIndex, reset, finishQuizNow, short = false }) => {
+const QuizCard: React.FC<IProps> = ({ imgSrc, id, name, text, title, lastIndex, reset, finishQuizNow, quizCardContent, short = false }) => {
   const onClick = () => {
     reset();
   };
@@ -37,29 +38,7 @@ const QuizCard: React.FC<IProps> = ({ imgSrc, id, name, text, title, lastIndex, 
           alt="Quiz"
         />
         <CardContent>
-          {/*for Home*/}
-          {short &&
-          <Typography gutterBottom variant="h5" component="h2">
-            {name}
-          </Typography>
-          }
-          {/*for QuizPage*/}
-          {(!short) && (!lastIndex) &&
-          <Typography variant="body2" color="textPrimary" component="div">
-            <Question id={id}/>
-          </Typography>
-          }
-          {/*for Summary*/}
-          {!short && lastIndex &&
-          <Typography gutterBottom variant="h5" component="h2">
-            {title}
-          </Typography>
-          }
-          {!short && lastIndex &&
-          <Typography variant="body1" color="textSecondary" component="p">
-            {text}
-          </Typography>
-          }
+          {quizCardContent}
         </CardContent>
       </CardActionArea>
       <CardActions>

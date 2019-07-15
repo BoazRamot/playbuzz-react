@@ -8,6 +8,8 @@ import ProgressBar from "../../components/ProgressBar/ProgressBar";
 import Summary from "../Summary/Summary";
 import {Dispatch} from "redux";
 import {IQuestions} from "../../models/IQuestions";
+import QuizCardContent from "../../components/QuizCardContent/QuizCardContent";
+import Question from "../../components/Question/Question";
 
 interface IProps {
   index: number;
@@ -68,6 +70,7 @@ const QuizPage: React.FC<IProps & RouteComponentProps> = ({index, lastIndex, shu
         id={id}
         name={quiz.title}
         imgSrc={`${process.env.PUBLIC_URL}/img/${quiz.questions[index].imgSrc}`}
+        quizCardContent={<QuizCardContent variant="body2" component="div" content={<Question id={id}/>}/>}
       />
     </div>
   )

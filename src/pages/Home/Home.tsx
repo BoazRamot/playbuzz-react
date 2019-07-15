@@ -5,6 +5,7 @@ import {Grid} from "@material-ui/core";
 import {Quiz} from "../../models/Quiz";
 import {IRootState} from "../../store/configureStore";
 import {Dispatch} from "redux";
+import QuizCardContent from "../../components/QuizCardContent/QuizCardContent";
 
 interface IProps {
   quizzes: Array<Quiz>;
@@ -26,6 +27,7 @@ const Home: React.FC<IProps> = ({quizzes, reset}) => {
               id={q.id}
               name={q.title}
               short={true}
+              quizCardContent={<QuizCardContent variant="h5" component="h2" content={q.title}/>}
             />
           </Grid>
         ))
