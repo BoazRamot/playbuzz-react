@@ -10,6 +10,7 @@ import {Dispatch} from "redux";
 import {IQuestions} from "../../models/IQuestions";
 import QuizCardContent from "../../components/QuizCardContent/QuizCardContent";
 import Question from "../../components/Question/Question";
+import QuizCardActions from "../../components/QuizCardActions/QuizCardActions";
 
 interface IProps {
   index: number;
@@ -20,9 +21,10 @@ interface IProps {
   reset: Function;
   isShuffled: Function;
   setShuffled: Function;
+  finishQuizNow: Function;
 }
 
-const QuizPage: React.FC<IProps & RouteComponentProps> = ({index, lastIndex, shuffled, score, getQuiz, reset, isShuffled, setShuffled, match}) => {
+const QuizPage: React.FC<IProps & RouteComponentProps> = ({index, lastIndex, shuffled, score, getQuiz, reset, isShuffled, setShuffled, finishQuizNow, match}) => {
 
   useEffect(() => {
     window.addEventListener("popstate", () => {
@@ -31,6 +33,10 @@ const QuizPage: React.FC<IProps & RouteComponentProps> = ({index, lastIndex, shu
       reset();
     });
   }, [reset, isShuffled]);
+
+  const finish = () => {
+    finishQuizNow()
+  };
 
   const id = (match.params as {id: string}).id;
   const quiz:Quiz = getQuiz(id);
@@ -67,10 +73,10 @@ const QuizPage: React.FC<IProps & RouteComponentProps> = ({index, lastIndex, shu
         length={quiz.questions.length}
       />
       <QuizCard
-        id={id}
         name={quiz.title}
         imgSrc={`${process.env.PUBLIC_URL}/img/${quiz.questions[index].imgSrc}`}
         quizCardContent={<QuizCardContent variant="body2" component="div" content={<Question id={id}/>}/>}
+        quizCardActions={<QuizCardActions size="small" color="primary" onClick={finish} value="Go to summary now"/>}
       />
     </div>
   )
@@ -94,6 +100,9 @@ const mapDispatchToProps = (dispatch: Dispatch) => ({
   },
   setShuffled: (value: Quiz) => {
     dispatch({type: 'SET_SHUFFLED_QUESTIONS', payload: value})
+  },
+  finishQuizNow: () => {
+    dispatch({type: 'SET_LAST_INDEX'});
   }
 });
 

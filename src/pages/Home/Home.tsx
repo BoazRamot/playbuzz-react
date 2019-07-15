@@ -6,6 +6,8 @@ import {Quiz} from "../../models/Quiz";
 import {IRootState} from "../../store/configureStore";
 import {Dispatch} from "redux";
 import QuizCardContent from "../../components/QuizCardContent/QuizCardContent";
+import QuizCardActions from "../../components/QuizCardActions/QuizCardActions";
+import {Link as RouterLink} from 'react-router-dom';
 
 interface IProps {
   quizzes: Array<Quiz>;
@@ -17,6 +19,14 @@ const Home: React.FC<IProps> = ({quizzes, reset}) => {
     reset();
   });
 
+  const homeActions = (id: any) => {
+    return(
+      <RouterLink to={`/quiz/${id}`}>
+        <QuizCardActions size="small" color="primary" value="See full quiz"/>
+      </RouterLink>
+    )
+  };
+
   return (
     <Grid container spacing={3}>
       {
@@ -24,10 +34,10 @@ const Home: React.FC<IProps> = ({quizzes, reset}) => {
           <Grid item xs={6} key={q.id}>
             <QuizCard
               imgSrc={`${process.env.PUBLIC_URL}/img/${q.imgSrc}`}
-              id={q.id}
               name={q.title}
               short={true}
               quizCardContent={<QuizCardContent variant="h5" component="h2" content={q.title}/>}
+              quizCardActions={homeActions(q.id)}
             />
           </Grid>
         ))
