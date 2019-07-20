@@ -8,6 +8,8 @@ import {Dispatch} from "redux";
 import QuizCardContent from "../../components/QuizCardContent/QuizCardContent";
 import QuizCardActions from "../../components/QuizCardActions/QuizCardActions";
 import {Link as RouterLink} from 'react-router-dom';
+import {restartQuestion} from "../../store/actions/action.questionReducer";
+import {restartScore} from "../../store/actions/action.scoreReducer";
 
 interface IProps {
   quizzes: Array<Quiz>;
@@ -52,8 +54,8 @@ const mapStateToProps = (state: IRootState) => ({
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({
   reset: () => {
-    dispatch({type: 'RESET_QUESTION_INDEX'});
-    dispatch({type: 'RESET_SCORE'});
+    dispatch(restartQuestion());
+    dispatch(restartScore());
   },
 });
 

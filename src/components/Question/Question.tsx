@@ -6,6 +6,8 @@ import {IOptions} from "../../models/IOptions";
 import {Quiz} from "../../models/Quiz";
 import {IRootState} from "../../store/configureStore";
 import {RouteComponentProps, withRouter} from "react-router";
+import {scoreSum} from "../../store/actions/action.scoreReducer";
+import {lastQuestion, nextQuestion} from "../../store/actions/action.questionReducer";
 
 interface IProps {
   id: string;
@@ -48,11 +50,11 @@ const mapStateToProps = (state: IRootState) => {
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({
   onNext: (answerScore: number, gotoSummery: boolean) => {
-    dispatch({type: 'ADVANCE_SCORE', payload: answerScore});
+    dispatch(scoreSum(answerScore));
     if (!gotoSummery) {
-      dispatch({type: 'ADVANCE_QUESTION'});
+      dispatch(nextQuestion());
     } else {
-      dispatch({type: 'SET_LAST_INDEX'});
+      dispatch(lastQuestion());
     }
   }
 });

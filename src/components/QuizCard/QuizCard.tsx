@@ -14,8 +14,8 @@ interface IProps {
 const QuizCard: React.FC<IProps> = ({ imgSrc, name, quizCardContent, quizCardActions, short = false }) => {
 
   return (
-    <Card>
-      <CardActionArea>
+    <Card className="card">
+      <CardActionArea className="card">
         <img
           className={(short) ? 'quiz-image-small' : 'quiz-image-large'}
           src={imgSrc}

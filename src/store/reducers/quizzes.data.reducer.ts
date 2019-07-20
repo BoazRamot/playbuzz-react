@@ -1,29 +1,12 @@
-import {Quiz} from '../models/Quiz';
-
-const QUIZZES_DATA_SET = '[QUIZZES] DATA_SET';
-
-// actions types
-interface quizSetAllAction {
-  type: typeof QUIZZES_DATA_SET;
-  payload: Quiz;
-}
-
-type quizzesDataActionTypes = quizSetAllAction
-
-// actions factories
-export const quizzesDataSet = (payload: Quiz): quizzesDataActionTypes => {
-  return {
-    type: QUIZZES_DATA_SET,
-    payload
-  }
-};
+import {Quiz} from '../../models/Quiz';
+import {QUIZZES_DATA_SET, SET_SHUFFLED_QUESTIONS} from "../actions/action.quizzesDataReducer";
 
 const quizzesDataReducer = (state: Array<Quiz> = [], action: any) => {
   switch (action.type) {
     case QUIZZES_DATA_SET:
       return [...state, action.payload];
 
-    case 'SET_SHUFFLED_QUESTIONS':
+    case SET_SHUFFLED_QUESTIONS:
       return state.map((item) => {
         if (item.id !== action.payload.id) {
           return item;

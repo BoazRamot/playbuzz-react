@@ -6,14 +6,13 @@ import {Route, Switch} from 'react-router';
 import Header from "../../components/Header/Header";
 import Home from '../Home/Home';
 import QuizPage from '../QuizPage/QuizPage';
-import {getQuizzes} from "../../store/quizzes.api.middleware";
 import {connect} from "react-redux";
 import {Dispatch} from "redux";
 import {IRootState} from "../../store/configureStore";
-import {Quiz} from "../../models/Quiz";
+import {getQuizzes} from "../../store/actions/action.quizzesApiMD";
 
 interface IProp {
-  quizzes: Array<Quiz>;
+  quizzes: boolean;
   getData: Function;
 }
 
@@ -28,10 +27,10 @@ const App: React.FC<IProp> = ({quizzes, getData}) => {
 
   useEffect(() => {
     const jsonFilesString = ['/data/q1.json', '/data/q2.json', '/data/q3.json'];
-    if (quizzes.length === 0) {
+    if (quizzes) {
       getData(jsonFilesString);
     }
-  }, [getData, quizzes.length]);
+  }, [getData, quizzes]);
 
   return (
     <ThemeProvider theme={theme}>
@@ -48,7 +47,7 @@ const App: React.FC<IProp> = ({quizzes, getData}) => {
 };
 
 const mapStateToProps = (state: IRootState) => ({
-  quizzes: state.quizzes
+  quizzes: state.quizzes.length === 0
 });
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({

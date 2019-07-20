@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import QuizCard from '../../components/QuizCard/QuizCard';
 import {IRootState} from '../../store/configureStore';
 import {connect} from 'react-redux';
-import {RouteComponentProps} from 'react-router';
+import {Route, RouteComponentProps} from 'react-router';
 import {Quiz} from "../../models/Quiz";
 import ProgressBar from "../../components/ProgressBar/ProgressBar";
 import Summary from "../Summary/Summary";
@@ -11,6 +11,10 @@ import {IQuestions} from "../../models/IQuestions";
 import QuizCardContent from "../../components/QuizCardContent/QuizCardContent";
 import Question from "../../components/Question/Question";
 import QuizCardActions from "../../components/QuizCardActions/QuizCardActions";
+import Home from "../Home/Home";
+import {lastQuestion, restartQuestion, shuffleQuestion} from "../../store/actions/action.questionReducer";
+import {quizShuffleQuestion} from "../../store/actions/action.quizzesDataReducer";
+import {restartScore} from "../../store/actions/action.scoreReducer";
 
 interface IProps {
   index: number;
@@ -28,7 +32,6 @@ const QuizPage: React.FC<IProps & RouteComponentProps> = ({index, lastIndex, shu
 
   useEffect(() => {
     window.addEventListener("popstate", () => {
-      console.log('QuizPage useEffect')
       isShuffled(false);
       reset();
     });
@@ -52,11 +55,9 @@ const QuizPage: React.FC<IProps & RouteComponentProps> = ({index, lastIndex, shu
       array[currentIndex] = array[randomIndex];
       array[randomIndex] = tempVal;
     }
-    isShuffled(true);
   };
 
   if (quiz && !shuffled) {
-    console.log('shuffleQuestions if if if');
     shuffle(quiz.questions);
     setShuffled(quiz);
     isShuffled(true);
@@ -64,6 +65,10 @@ const QuizPage: React.FC<IProps & RouteComponentProps> = ({index, lastIndex, shu
 
   if (lastIndex) {
     return <Summary id={id} score={score} quiz={quiz}/>;
+  }
+
+  if (quiz === undefined) {
+    return <Route path="/" component={Home}/>
   }
 
   return (!quiz) ? null :(
@@ -92,17 +97,17 @@ const mapStateToProps = (state: IRootState) => ({
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({
   reset: () => {
-    dispatch({type: 'RESET_QUESTION_INDEX'});
-    dispatch({type: 'RESET_SCORE'});
+    dispatch(restartQuestion());
+    dispatch(restartScore());
   },
   isShuffled: (value: boolean) => {
-    dispatch({type: 'SET_QUESTION_SHUFFLE', payload: value})
+    dispatch(shuffleQuestion(value));
   },
   setShuffled: (value: Quiz) => {
-    dispatch({type: 'SET_SHUFFLED_QUESTIONS', payload: value})
+    dispatch(quizShuffleQuestion(value));
   },
   finishQuizNow: () => {
-    dispatch({type: 'SET_LAST_INDEX'});
+    dispatch(lastQuestion());
   }
 });
 

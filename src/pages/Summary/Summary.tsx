@@ -6,6 +6,8 @@ import QuizCardActions from "../../components/QuizCardActions/QuizCardActions";
 import {Link as RouterLink} from 'react-router-dom';
 import {Dispatch} from "redux";
 import {connect} from "react-redux";
+import {restartQuestion} from "../../store/actions/action.questionReducer";
+import {restartScore} from "../../store/actions/action.scoreReducer";
 
 interface IProps {
   id: string;
@@ -45,7 +47,7 @@ const Summary: React.FC<IProps> = ({id, score, quiz, reset}) => {
 
   return (!quiz) ? null :(
     <QuizCard
-      imgSrc={`/img/${resultItem.imgSrc}`}
+      imgSrc={`${process.env.PUBLIC_URL}/img/${resultItem.imgSrc}`}
       name={quiz.title}
       quizCardContent={summaryContent()}
       quizCardActions={summaryActions()}
@@ -55,8 +57,8 @@ const Summary: React.FC<IProps> = ({id, score, quiz, reset}) => {
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({
   reset: () => {
-    dispatch({type: 'RESET_QUESTION_INDEX'});
-    dispatch({type: 'RESET_SCORE'});
+    dispatch(restartQuestion());
+    dispatch(restartScore());
   }
 });
 

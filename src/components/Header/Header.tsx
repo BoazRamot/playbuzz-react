@@ -5,6 +5,8 @@ import {NavLink} from 'react-router-dom';
 import {Dispatch} from "redux";
 import {connect} from "react-redux";
 import Grid from "@material-ui/core/Grid";
+import {restartQuestion} from "../../store/actions/action.questionReducer";
+import {restartScore} from "../../store/actions/action.scoreReducer";
 
 interface IProps {
   reset: Function;
@@ -55,8 +57,8 @@ const Header: React.FC<IProps> = ({reset}) => {
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({
   reset: () => {
-    dispatch({type: 'RESET_QUESTION_INDEX'});
-    dispatch({type: 'RESET_SCORE'});
+    dispatch(restartQuestion());
+    dispatch(restartScore());
   }
 });
 
